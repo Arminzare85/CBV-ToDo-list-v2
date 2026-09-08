@@ -4,6 +4,7 @@ from django.views.generic import TemplateView
 from .views import UserLoginView , UserLogoutView , UserSignupView
 from .views import UserPasswordResetView , UserPasswordResetDoneView , UserPasswordResetConfirmView , UserPasswordResetCompleteView
 from django.urls import include
+
 app_name = 'accounts'
 
 urlpatterns = [
